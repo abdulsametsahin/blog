@@ -1,6 +1,6 @@
 <?php
 
-$_url = "http://localhost/blog";
+$_url = "https://abdulsametsah.in";
 
 function asset($path) {
     global $_url;
