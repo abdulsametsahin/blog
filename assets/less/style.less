@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-size: 17px;
+}
+
+#blog {
+    width: 740px;
+    margin: 50px auto;
+}
+
+
+header {
+    ul li {
+        float: left;
+        margin-right: 30px;
+
+        a {
+            display: block;
+            color: #40C66F;
+            opacity: 0.6;
+            transition: 300ms opacity;
+            font-weight: 500;
+
+            &:hover, &.aktif {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.about {
+    margin-top: 50px;
+    color: #444;
+    line-height: 25px;
+    padding-bottom: 20px;
+    a {
+        color: #40C66F;
+
+        &:hover {
+            color: #2c8449;
+        }
+    }
+    img.me {
+        float: left;
+        width: 200px;
+        margin-right: 40px;
+        border-radius: 5px;
+    }
+    
+    .text {
+        float: left;
+        width: calc(100% - 240px);
+        margin-top: -1px;
+        h1 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            ul li {
+                padding-bottom: 3px;
+                padding-top: 3px;
+                span {
+                    margin-right: 10px;
+                    width: 150px;
+                    display: inline-block;
+                }
+                img {
+                    width: 25px;
+                    margin-right: 2px;
+                    opacity: 0.8;
+                }
+
+                .silik {
+                    margin-right: 0;
+                    width: auto;
+                    display: inline;
+                    color:#777;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    .social {
+        display: none;
+        margin-top: 20px;
+        padding-bottom: 30px;
+
+        ul li {
+            float: left;
+
+            a {
+                display: block;
+                margin-right: 30px;
+                color: #777;
+
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #blog {
+        margin: 10px auto;
+        padding: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .about {
+        .me {
+            float: none !important;
+            margin-right: 0 !important;
+            margin-bottom: 40px;
+        }
+
+        .text {
+            float: none !important;
+            width: 100% !important;
+        }
+    }
+}
