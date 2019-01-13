@@ -53,7 +53,7 @@
                             <?=star(4)?>
                         </li>
                         <li>
-                            <span>Javscript</span>
+                            <span>Javascript</span>
                             <?=star(4)?>
                         </li>
                         <li>
@@ -96,7 +96,7 @@
                         <li>APIs</li>
                         <li>Nodejs, Socket.io, Expressjs</li>
                         <li>Selenium</li>
-                        <li>Boostrap</li>
+                        <li>Bootstrap</li>
                     </ul>
                 </div>
             </div>
